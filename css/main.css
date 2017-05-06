@@ -1,0 +1,58 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#control_panel {
+    position: fixed;
+    right: 20px;
+    top: 0;
+    width: 250px;
+    background: #1a1a1a;
+    color: white;
+}
+
+.control_item {
+    list-style: none;
+    border-left: 3px solid #ff3e83;
+    border-bottom: 1px solid #2c2c2c;
+    margin-bottom: 2px;
+    cursor: pointer;
+    padding: 4px 5px 4px 5px;
+}
+
+.control_item:hover {
+    background-color: #84d2ff;
+}
+
+#control_button {
+    text-align: center;
+    cursor: pointer;
+    border-left: 3px solid dodgerblue;
+    padding: 4px 5px 5px 5px;
+}
+
+#control_button:hover {
+    background-color: #84d2ff;
+}
+
+input[type='file'] {
+    display: none;
+}
+
+label[for='file'] {
+    padding-right: 160px;
+    cursor: pointer;
+}
